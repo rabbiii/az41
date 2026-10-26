@@ -1,0 +1,80 @@
+# ---------------------------------------------------------------------
+# LAMMPS input: relax AZ41 polycrystal with GB-nucleated Mg17Al12
+# precipitates (structure built by insert_precipitates.py)
+#
+# You MUST supply a Mg-Al(-Zn) interatomic potential capable of
+# describing BOTH the hcp alpha-Mg solid solution and the bcc-derived
+# I-43m Mg17Al12 intermetallic. EAM alone typically cannot; look for an
+# MEAM potential, e.g.:
+#   - Kim, Jelinek, Horstemeyer et al., Mg-Al MEAM (NIST Interatomic
+#     Potentials Repository, https://www.ctcms.nist.gov/potentials/)
+#   - Ganeshan/Jelinek Mg-Al-Zn extensions where available
+# Place the potential files next to this script and set PAIR_STYLE /
+# PAIR_COEFF below to match.
+# ---------------------------------------------------------------------
+
+units           metal
+dimension       3
+boundary        p p p
+atom_style      atomic
+
+read_data       az41poly_with_precipitates.lammps.data
+
+# --- type 1 = Mg, 2 = Al, 3 = Zn  (see write_lammps_data.py mapping) ---
+# EXAMPLE using a MEAM library (edit paths/keywords for your potential):
+# pair_style      meam
+# pair_coeff      * * library.meam Mg Al Zn MgAlZn.meam Mg Al Zn
+#
+# EXAMPLE using an EAM/alloy setter file (only if your potential file
+# explicitly includes an Mg-Al cross term validated against Mg17Al12):
+# pair_style      eam/alloy
+# pair_coeff      * * MgAlZn.eam.alloy Mg Al Zn
+
+neighbor        2.0 bin
+neigh_modify    delay 5 every 1
+
+# ---------------------------- 1) static relaxation -------------------
+thermo          100
+thermo_style    custom step pe ke etotal press lx ly lz
+
+min_style       cg
+minimize        1.0e-10 1.0e-12 10000 100000
+
+write_dump      all cfg min_relaxed_*.cfg.gz id type xs ys zs &
+                modify element Mg Al Zn
+
+# ---------------------------- 2) thermal anneal -----------------------
+# lets the beta/alpha interfaces (built geometrically, hence imperfect)
+# relax structurally and lets local stresses redistribute, similar in
+# spirit to the liquid-nitrogen-quenched but still thermally processed
+# LSR layer in the paper. Keep the anneal well below the eutectic temp
+# (~710 K for Mg-Al) to avoid melting the precipitates you just built.
+
+velocity        all create 300.0 12345 mom yes rot yes dist gaussian
+
+fix             1 all npt temp 300.0 300.0 0.1 iso 0.0 0.0 1.0
+timestep        0.001                      # ps
+
+dump            d1 all custom 2000 anneal_*.dump id type x y z
+dump_modify     d1 sort id
+
+run             50000                      # 50 ps equilibration at 300 K
+
+# slow anneal to 500 K and back, to let GB/precipitate interfaces relax
+fix             1 all npt temp 300.0 500.0 0.1 iso 0.0 0.0 1.0
+run             100000
+fix             1 all npt temp 500.0 300.0 0.1 iso 0.0 0.0 1.0
+run             100000
+
+write_data      az41_precipitates_relaxed.data
+write_dump      all cfg final_*.cfg.gz id type xs ys zs modify element Mg Al Zn
+
+# ---------------------------- 3) quick QC --------------------------
+# Common-neighbor-analysis / centrosymmetry can be computed here or in
+# OVITO afterwards to confirm: (a) precipitates keep their bcc-derived
+# structure, (b) alpha grains keep hcp, (c) GB/interface atoms show up
+# as "other" -- exactly the heterogeneous picture in Fig. 2 of the paper.
+compute         csym all centro/atom fcc
+compute         cna  all cna/atom 3.2
+dump            d2 all custom 100000 qc_*.dump id type x y z c_csym c_cna
+run             0
