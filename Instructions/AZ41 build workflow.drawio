@@ -1,0 +1,223 @@
+<mxfile host="drawio">
+  <diagram id="az41" name="AZ41 build workflow">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1320" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;AZ41 (Mg-Al-Zn) polycrystal MD model: build workflow up to az41poly_with_precipitates.cfg&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr0" value="&lt;b&gt;INPUTS&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=13;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="55" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr1" value="&lt;b&gt;WORKFLOW STEP: what happens inside&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=13;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="330" y="55" width="640" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr2" value="&lt;b&gt;OUTPUTS&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=13;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="55" width="270" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="&lt;b&gt;Step 1 · Download crystal structures&lt;/b&gt;&lt;br&gt;&lt;br&gt;CIF files for the two phases were downloaded: hcp α-Mg (matrix, COD 9012001) and β-Mg&lt;sub&gt;17&lt;/sub&gt;Al&lt;sub&gt;12&lt;/sub&gt; (second phase, COD 1576218, cubic I-43m, a ≈ 10.54 Å). They give lattice parameters and atom positions. The Mg cell is converted to a LAMMPS .lmp file so Atomsk can use it as the seed for the grains." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=8;align=center;verticalAlign=top;spacingTop=6;spacing=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="95" width="640" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="i1" value="&lt;b&gt;Online crystal database&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Crystallography Open Database (CIF)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1a" value="&lt;b&gt;9012001-Mghcp.cif&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;+ 9012001-Mghcp.lmp (hcp Mg unit cell)&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="95" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o1b" value="&lt;b&gt;1576218-Mg17Al12.cif&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;+ 1576218-Mg17Al12.lmp (β unit cell)&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="165" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i1" target="s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o1a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s1" target="o1a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o1b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s1" target="o1b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="&lt;b&gt;Step 2 · Define the simulation box&lt;/b&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size:11px&quot;&gt;box 201 201 201&lt;br&gt;random 20&lt;/font&gt;&lt;br&gt;param.txt.txt tells Atomsk to build a 201 × 201 × 201 Å periodic cube (≈ 350 k atoms) and to seed 20 Voronoi grain nodes at random positions with random crystal orientations." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=8;align=center;verticalAlign=top;spacingTop=6;spacing=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="640" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" value="&lt;b&gt;Design choices&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;201 Å cubic box · 20 grains&lt;br&gt;target ≈ 350 000 atoms&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="315" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o2" value="&lt;b&gt;param.txt.txt&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="325" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i2" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s2" target="o2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="&lt;b&gt;Step 3 · Build the pure-Mg polycrystal (Atomsk)&lt;/b&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size:11px&quot;&gt;atomsk --polycrystal &quot;9012001-Mghcp.lmp&quot; param.txt.txt az41poly.lmp lmp cfg -wrap&lt;/font&gt;&lt;br&gt;&lt;br&gt;Atomsk performs a Voronoi tessellation of the box around the 20 nodes and fills each cell with hcp Mg rotated to that grain's orientation; atoms that overlap at grain boundaries are removed. &lt;i&gt;-wrap&lt;/i&gt; folds atoms back into the periodic box. Every atom gets a grainID. Result: 349 469 Mg atoms, average grain size ≈ 7.4 nm. &lt;b&gt;No alloying yet.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=8;align=center;verticalAlign=top;spacingTop=6;spacing=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="475" width="640" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="i3a" value="&lt;b&gt;9012001-Mghcp.lmp&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;hcp Mg seed cell&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="510" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i3b" value="&lt;b&gt;param.txt.txt&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;box + grain settings&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="580" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o3a" value="&lt;b&gt;az41poly.lmp · az41poly.cfg&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;349 469 Mg atoms, grainID per atom&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="470" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="o3b" value="&lt;b&gt;az41poly_param.txt&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;grain node positions + 3 rotation angles&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="522" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="o3c" value="&lt;b&gt;az41poly_nodes.xsf · _grains-com.xsf&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;grain nodes / centres of mass&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="574" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="o3d" value="&lt;b&gt;az41poly_id-size.txt · _size-dist.txt&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;grain size statistics&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="626" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i3a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i3a" target="s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i3b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i3b" target="s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o3a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s3" target="o3a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o3b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s3" target="o3b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o3c" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s3" target="o3c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o3d" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s3" target="o3d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="&lt;b&gt;Step 4 · Alloying to the AZ41 composition (in the .cfg)&lt;/b&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size:11px&quot;&gt;atomsk az41poly.cfg -select random 13055 Mg -substitute Mg Al&lt;br&gt;-select random 1496 Mg -substitute Mg Zn az41poly_alloy2 lmp cfg&lt;/font&gt;&lt;br&gt;&lt;br&gt;Random Mg atoms are swapped in place to make a random substitutional solid solution:&lt;br&gt;Al = 349 469 × 0.037358 = &lt;b&gt;13 055&lt;/b&gt; atoms · Zn = 349 469 × 0.004280 = &lt;b&gt;1 496&lt;/b&gt; atoms · Mg = 334 918.&lt;br&gt;Atom positions and grains are unchanged; only chemical identities change." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=8;align=center;verticalAlign=top;spacingTop=6;spacing=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="730" width="640" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="i4a" value="&lt;b&gt;az41poly.cfg&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;pure-Mg polycrystal&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="755" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i4b" value="&lt;b&gt;AZ41 target composition&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Al 3.736 at% · Zn 0.428 at%&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="825" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o4a" value="&lt;b&gt;az41poly_alloy2.cfg&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;Mg 334 918 · Al 13 055 · Zn 1 496&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="745" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o4b" value="&lt;b&gt;az41poly_alloy2.lmp&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;Atomsk .lmp lacked the substitutions,&lt;br&gt;so it was regenerated from the .cfg in OVITO&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="820" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i4a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i4a" target="s4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i4b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i4b" target="s4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o4a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s4" target="o4a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_o4b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="s4" target="o4b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" value="&lt;b&gt;Step 5 · Insert β-Mg&lt;sub&gt;17&lt;/sub&gt;Al&lt;sub&gt;12&lt;/sub&gt; precipitates on grain boundaries&lt;/b&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size:11px&quot;&gt;python insert_precipitates.py&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=8;align=center;verticalAlign=top;spacingTop=6;spacing=8;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="965" width="640" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="sub5a" value="&lt;b&gt;5a · Read inputs&lt;/b&gt;&lt;br&gt;Load atoms, elements and grainID from the CFG; grain rotation angles from az41poly_param.txt; expand the Mg&lt;sub&gt;17&lt;/sub&gt;Al&lt;sub&gt;12&lt;/sub&gt; CIF with its 48 symmetry operators into a 58-atom cubic cell." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;arcSize=6;align=left;verticalAlign=top;spacing=6;fontSize=11;" vertex="1" parent="s5">
+          <mxGeometry x="20" y="70" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sub5b" value="&lt;b&gt;5b · Burgers orientation relation&lt;/b&gt;&lt;br&gt;(0001)&lt;sub&gt;α&lt;/sub&gt; ∥ (011)&lt;sub&gt;β&lt;/sub&gt;, [11-20]&lt;sub&gt;α&lt;/sub&gt; ∥ [-1-11]&lt;sub&gt;β&lt;/sub&gt; → rotation R&lt;sub&gt;OR&lt;/sub&gt;.&lt;br&gt;For each host grain: R&lt;sub&gt;lab&lt;/sub&gt; = R&lt;sub&gt;grain&lt;/sub&gt; · R&lt;sub&gt;OR&lt;/sub&gt;." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;arcSize=6;align=left;verticalAlign=top;spacing=6;fontSize=11;" vertex="1" parent="s5">
+          <mxGeometry x="330" y="70" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sub5c" value="&lt;b&gt;5c · Find grain-boundary atoms&lt;/b&gt;&lt;br&gt;Periodic KD-tree: an atom with a neighbour within 3.6 Å that belongs to a &lt;i&gt;different&lt;/i&gt; grain is a GB atom (~18 % of all atoms)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;arcSize=6;align=left;verticalAlign=top;spacing=6;fontSize=11;" vertex="1" parent="s5">
+          <mxGeometry x="20" y="212" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sub5d" value="&lt;b&gt;5d · Pick nucleation sites&lt;/b&gt;&lt;br&gt;Random GB atoms are chosen as precipitate centres, kept ≥ 1.6 × edge apart, until ~10 vol% is reached → &lt;b&gt;19 sites&lt;/b&gt;." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;arcSize=6;align=left;verticalAlign=top;spacing=6;fontSize=11;" vertex="1" parent="s5">
+          <mxGeometry x="330" y="212" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sub5e" value="&lt;b&gt;5e · Build &amp;amp; embed precipitates&lt;/b&gt;&lt;br&gt;Tile the β cell, rotate by R&lt;sub&gt;lab&lt;/sub&gt;, crop to a 3.5 nm cube (block shape). Delete host atoms inside the cube + 2.5 Å buffer, then remove any pair closer than 1.6 Å (precipitate atoms win). Each precipitate gets grainID 101–119." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;arcSize=6;align=left;verticalAlign=top;spacing=6;fontSize=11;" vertex="1" parent="s5">
+          <mxGeometry x="20" y="354" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sub5f" value="&lt;b&gt;5f · Conserve composition &amp;amp; write&lt;/b&gt;&lt;br&gt;β adds extra Al, so the nearest matrix Al atoms around each precipitate are turned back into Mg (a solute-depleted zone). Write the merged structure as an extended CFG." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;arcSize=6;align=left;verticalAlign=top;spacing=6;fontSize=11;" vertex="1" parent="s5">
+          <mxGeometry x="330" y="354" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sub5a5b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#6c8ebf;strokeWidth=1.5;" edge="1" parent="s5" source="sub5a" target="sub5b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sub5b5c" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#6c8ebf;strokeWidth=1.5;" edge="1" parent="s5" source="sub5b" target="sub5c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sub5c5d" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#6c8ebf;strokeWidth=1.5;" edge="1" parent="s5" source="sub5c" target="sub5d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sub5d5e" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#6c8ebf;strokeWidth=1.5;" edge="1" parent="s5" source="sub5d" target="sub5e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sub5e5f" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#6c8ebf;strokeWidth=1.5;" edge="1" parent="s5" source="sub5e" target="sub5f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i5a" value="&lt;b&gt;az41poly_alloy2.cfg&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;alloyed polycrystal (from Step 4)&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1005" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="i5b" value="&lt;b&gt;az41poly_param.txt&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;grain orientations (from Step 3)&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1075" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="i5c" value="&lt;b&gt;1576218-Mg17Al12.cif&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;β crystal structure (from Step 1)&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1145" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="i5d" value="&lt;b&gt;Helper modules&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;cfg_utils.py (CFG read/write)&lt;br&gt;cif_utils.py (CIF expansion)&lt;br&gt;orientation.py (grain + Burgers rotations)&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1215" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i5e" value="&lt;b&gt;Reference paper&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;Fu et al., Mater. Sci. Eng. A 858 (2022) 144151&lt;br&gt;→ Burgers OR, block-shaped GB β, ~10 vol%&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1310" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i5f" value="&lt;b&gt;Tunable parameters&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;PRECIP_EDGE = 35 Å · TARGET_VF = 0.10&lt;br&gt;GB_CUTOFF = 3.6 Å · BUFFER = 2.5 Å&lt;br&gt;MIN_SEPARATION_FACTOR = 1.6&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=12;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1395" width="250" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i5a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i5a" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i5b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i5b" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i5c" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i5c" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i5d" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i5d" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i5e" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i5e" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i5f" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;" edge="1" parent="1" source="i5f" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;⚠ Scale note&lt;/b&gt;&lt;br&gt;The paper's β particles are ~22.8 nm, larger than the ~7.4 nm grains in this 20 nm box, so the precipitate edge is scaled down to 3.5 nm. The Burgers OR, GB-only nucleation, block morphology and ~10 vol% are kept.&lt;br&gt;&lt;br&gt;This is a geometric construction of the final microstructure, not a nucleation/kinetics simulation; the interfaces still need relaxing in LAMMPS afterwards." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;align=left;verticalAlign=top;spacing=8;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1025" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e_n5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeColor=#666666;dashed=1;endArrow=none;" edge="1" parent="1" source="s5" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="final" value="&lt;b style=&quot;font-size:15px&quot;&gt;az41poly_with_precipitates.cfg&lt;/b&gt;&lt;br&gt;Final AZ41 model&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;339 897 atoms · Mg 321 521 · Al 17 100 · Zn 1 276&lt;br&gt;20 α-Mg grains + 19 Burgers-OR β-Mg&lt;sub&gt;17&lt;/sub&gt;Al&lt;sub&gt;12&lt;/sub&gt; GB precipitates (~10 vol%)&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=16;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1580" width="400" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="e_final" value="merged structure" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9673a6;fontSize=11;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="s5" target="final">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sp12" value="lattice data (.cif / .lmp)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6c8ebf;fontSize=11;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="s1" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sp23" value="param.txt.txt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6c8ebf;fontSize=11;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="s2" target="s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sp34" value="az41poly.cfg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6c8ebf;fontSize=11;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="s3" target="s4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sp45" value="az41poly_alloy2.cfg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6c8ebf;fontSize=11;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="s4" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Legend:  blue = workflow step  ·  green = data file  ·  yellow = design choice / parameters  ·  orange = external source  ·  grey = scripts / side note  ·  red dashed = caveat  ·  purple = final model  ·  thick blue arrows = step order" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1700" width="1280" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
