@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" agent="AZ41 workflow documentation" version="24.7.17" type="device">
+  <diagram id="01-complete-workflow" name="01 - Complete AZ41 workflow">
+    <mxGraphModel dx="1600" dy="2420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2420" background="#F8FAFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F8FAFC;strokeColor=#F8FAFC;strokeWidth=1.5;shadow=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="2420" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="AZ41 | From crystal files to precipitates" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=38;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="42" width="1200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Five preparation stages, with file provenance and the final CFG as the endpoint." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#475569;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="1450" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="151" width="17" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="Blue: processing step" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=16;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="88" y="148" width="330" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="151" width="17" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="White: inputs / supporting files" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=16;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="413" y="148" width="330" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#ECFDF5;strokeColor=#6EE7B7;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="151" width="17" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="Green: output / retained artifact" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=16;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="818" y="148" width="340" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="INPUTS / REQUIREMENTS" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="202" width="390" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="WORKFLOW / WHAT HAPPENS" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="202" width="600" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="OUTPUTS / MODEL DETAILS" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="202" width="390" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="SOURCE STRUCTURES" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n14">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="Crystallographic records for:" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n14">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="hcp Mg (matrix phase)" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n14">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="Mg17Al12 (precipitate phase)" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n14">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="Record IDs: 9012001, 1576218" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n14">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="600" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#1D4ED8;strokeColor=#1D4ED8;strokeWidth=1.5;shadow=0;" vertex="1" parent="n20">
+          <mxGeometry x="22" y="22" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="1" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n21">
+          <mxGeometry x="12" y="7" width="30" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="Download the crystal structures" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n20">
+          <mxGeometry x="85" y="29" width="490" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="Obtain the CIF for each phase." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n20">
+          <mxGeometry x="24" y="84" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="Mg supplies the matrix crystal structure;" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n20">
+          <mxGeometry x="24" y="113" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="Mg17Al12 supplies the beta-phase unit cell." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n20">
+          <mxGeometry x="24" y="142" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="Retain both files for their later branches." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n20">
+          <mxGeometry x="24" y="171" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#ECFDF5;strokeColor=#6EE7B7;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="240" width="390" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="DOWNLOADED CIF FILES" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n28">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="9012001-Mghcp.cif" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n28">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="1576218-Mg17Al12.cif" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n28">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n28">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="The beta CIF is read again in step 5." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n28">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.55;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n14" target="n20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="sourcePoint" />
+            <mxPoint x="492" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n20" target="n28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1108" y="350" as="sourcePoint" />
+            <mxPoint x="1142" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n20" target="n43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="460" as="sourcePoint" />
+            <mxPoint x="800" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n37" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="SIMULATION DESIGN" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n37">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="Cubic box: 201 x 201 x 201 Å" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n37">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="Equivalent length: 20.1 nm per side" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n37">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="Number of grains: 20" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n37">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" value="Random grain positions/orientations" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n37">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="600" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#1D4ED8;strokeColor=#1D4ED8;strokeWidth=1.5;shadow=0;" vertex="1" parent="n43">
+          <mxGeometry x="22" y="22" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n45" value="2" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n44">
+          <mxGeometry x="12" y="7" width="30" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n46" value="Write the box parameter file" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n43">
+          <mxGeometry x="85" y="29" width="490" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n47" value="Define the box and request 20 random grains." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n43">
+          <mxGeometry x="24" y="78" width="550" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n48" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="n43">
+          <mxGeometry x="24" y="120" width="552" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n49" value="box 201 201 201" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=19;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n48">
+          <mxGeometry x="18" y="9" width="512" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n50" value="random 20" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=19;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n48">
+          <mxGeometry x="18" y="33" width="512" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n51" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#ECFDF5;strokeColor=#6EE7B7;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="520" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n52" value="SAVED PARAMETER FILE" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n51">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n53" value="param.txt.txt" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n51">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n54" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n51">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n55" value="Called param.txt in the workflow;" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n51">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n56" value="the actual saved filename and" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n51">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n57" value="terminal command use param.txt.txt." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n51">
+          <mxGeometry x="22" y="164" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.525;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n37" target="n43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="625" as="sourcePoint" />
+            <mxPoint x="492" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n43" target="n51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1108" y="625" as="sourcePoint" />
+            <mxPoint x="1142" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n43" target="n74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="730" as="sourcePoint" />
+            <mxPoint x="800" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n61" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="790" width="390" height="371" as="geometry" />
+        </mxCell>
+        <mxCell id="n62" value="ATOMSK INPUT FILES" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n63" value="9012001-Mghcp.lmp" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n64" value="param.txt.txt" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n65" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n66" value="Prerequisite: convert the Mg CIF" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n67" value="to the LAMMPS unit-cell file above." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="164" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n68" value="The LMP exists in this project;" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="191" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n69" value="its conversion command is not" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="218" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n70" value="recorded in the workflow notes." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="245" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n71" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="272" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n72" value="The beta-phase LMP is not used" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="299" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n73" value="by the precipitate insertion script." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="326" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n74" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="790" width="600" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="n75" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#1D4ED8;strokeColor=#1D4ED8;strokeWidth=1.5;shadow=0;" vertex="1" parent="n74">
+          <mxGeometry x="22" y="22" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n76" value="3" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n75">
+          <mxGeometry x="12" y="7" width="30" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n77" value="Build the pure-Mg polycrystal" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n74">
+          <mxGeometry x="85" y="29" width="490" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n78" value="Atomsk fills 20 Voronoi grains with hcp Mg," style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n74">
+          <mxGeometry x="24" y="80" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n79" value="assigns grain orientations, and wraps atoms" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n74">
+          <mxGeometry x="24" y="109" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n80" value="into the periodic simulation box." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n74">
+          <mxGeometry x="24" y="138" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n81" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="n74">
+          <mxGeometry x="24" y="183" width="552" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="n82" value="atomsk --polycrystal" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=18;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n81">
+          <mxGeometry x="18" y="15" width="516" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n83" value="&quot;9012001-Mghcp.lmp&quot; param.txt.txt" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=18;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n81">
+          <mxGeometry x="18" y="44" width="516" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n84" value="az41poly.lmp lmp cfg -wrap" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=18;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n81">
+          <mxGeometry x="18" y="73" width="516" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n85" value="349,469 atoms | Mg only | no alloying yet" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#1D4ED8;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n74">
+          <mxGeometry x="24" y="322" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n86" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#ECFDF5;strokeColor=#6EE7B7;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="790" width="390" height="398" as="geometry" />
+        </mxCell>
+        <mxCell id="n87" value="GENERATED FILES" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n88" value="az41poly.cfg  →  step 4" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n89" value="az41poly.lmp" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n90" value="az41poly_param.txt  →  step 5" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n91" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n92" value="Grain geometry / statistics:" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="164" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n93" value="az41poly_nodes.xsf" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="191" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n94" value="az41poly_grains-com.xsf" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="218" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n95" value="az41poly_id-size.txt" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="245" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n96" value="az41poly_size-dist.txt" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="272" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n97" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="299" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n98" value="The generated parameter file stores" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="326" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n99" value="the actual grain nodes and rotations." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n86">
+          <mxGeometry x="22" y="353" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.498652291105121;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n61" target="n74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="975" as="sourcePoint" />
+            <mxPoint x="492" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.464824120603015;entryDx=0;entryDy=0;" edge="1" parent="1" source="n74" target="n86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1108" y="975" as="sourcePoint" />
+            <mxPoint x="1142" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n74" target="n113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="1160" as="sourcePoint" />
+            <mxPoint x="800" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n103" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1220" width="390" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="n104" value="ALLOYING INPUT" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n105" value="az41poly.cfg  (from step 3)" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n106" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n107" value="Random substitution in the CFG:" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n108" value="13,055 Mg atoms → Al" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n109" value="1,496 remaining Mg atoms → Zn" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="164" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n110" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="191" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n111" value="Keep the box, grain geometry" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="218" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n112" value="and grainID auxiliary information." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n103">
+          <mxGeometry x="22" y="245" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n113" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#EFF6FF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1220" width="600" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="n114" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#1D4ED8;strokeColor=#1D4ED8;strokeWidth=1.5;shadow=0;" vertex="1" parent="n113">
+          <mxGeometry x="22" y="22" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n115" value="4" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n114">
+          <mxGeometry x="12" y="7" width="30" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n116" value="Create the AZ41 solid solution" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n113">
+          <mxGeometry x="85" y="29" width="490" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n117" value="Replace selected Mg atoms with Al and Zn." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n113">
+          <mxGeometry x="24" y="80" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n118" value="This creates an alloyed matrix before any" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n113">
+          <mxGeometry x="24" y="109" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n119" value="Mg17Al12 precipitates are inserted." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n113">
+          <mxGeometry x="24" y="138" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n120" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="n113">
+          <mxGeometry x="24" y="180" width="552" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n121" value="atomsk az41poly.cfg" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=17;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n120">
+          <mxGeometry x="16" y="14" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n122" value="-select random 13055 Mg -substitute Mg Al" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=17;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n120">
+          <mxGeometry x="16" y="40" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n123" value="-select random 1496 Mg -substitute Mg Zn" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=17;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n120">
+          <mxGeometry x="16" y="66" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n124" value="az41poly_alloy2 lmp cfg" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=17;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n120">
+          <mxGeometry x="16" y="92" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n125" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#ECFDF5;strokeColor=#6EE7B7;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1220" width="390" height="371" as="geometry" />
+        </mxCell>
+        <mxCell id="n126" value="ALLOYED OUTPUT FILES" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n127" value="az41poly_alloy2.cfg  →  step 5" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n128" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n129" value="349,469 atoms; Mg-Al-Zn matrix." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n130" value="This CFG carries the alloyed structure." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n131" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="164" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n132" value="Companion: az41poly_alloy2.lmp" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="191" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n133" value="The notes report incorrect species" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="218" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n134" value="in that LMP and an OVITO conversion" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="245" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n135" value="from the CFG to repair the data file." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="272" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n136" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="299" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n137" value="Precipitate insertion uses the CFG." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n125">
+          <mxGeometry x="22" y="326" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.603448275862069;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n103" target="n113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1395" as="sourcePoint" />
+            <mxPoint x="492" y="1395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.471698113207547;entryDx=0;entryDy=0;" edge="1" parent="1" source="n113" target="n125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1108" y="1395" as="sourcePoint" />
+            <mxPoint x="1142" y="1395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n113" target="n158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="1570" as="sourcePoint" />
+            <mxPoint x="800" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n141" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1630" width="390" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="n142" value="SCRIPT INPUTS + DEPENDENCIES" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n143" value="az41poly_alloy2.cfg  (step 4)" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n144" value="az41poly_param.txt  (step 3)" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n145" value="1576218-Mg17Al12.cif  (step 1)" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n146" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n147" value="Helper modules:" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="164" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n148" value="cfg_utils.py  — CFG read/write" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="191" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n149" value="cif_utils.py  — CIF expansion" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="218" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n150" value="orientation.py  — grain / beta rotation" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="245" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n151" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="272" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n152" value="Runtime: Python, NumPy, SciPy." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="299" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n153" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="326" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n154" value="Set CFG_PATH, NODE_PATH, CIF_PATH" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="353" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n155" value="and OUT_PATH for the working machine." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="380" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n156" value="The supplied script contains paths" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="407" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n157" value="from its original execution environment." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n141">
+          <mxGeometry x="22" y="434" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n158" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F5F3FF;strokeColor=#BFDBFE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1630" width="600" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="n159" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="n158">
+          <mxGeometry x="22" y="22" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n160" value="5" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n159">
+          <mxGeometry x="12" y="7" width="30" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n161" value="Insert the Mg17Al12 precipitates" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="85" y="29" width="490" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n162" value="Run insert_precipitates.py with the three" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="79" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n163" value="data files and helper modules at left." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="108" width="552" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n164" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#C4B5FD;strokeWidth=1.5;shadow=0;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="150" width="552" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n165" value="python insert_precipitates.py" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Courier New;fontSize=18;fontColor=#0F172A;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n164">
+          <mxGeometry x="18" y="14" width="516" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n166" value="1. Read matrix, grain orientations and beta CIF." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="227" width="552" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n167" value="2. Detect grain boundaries; select spaced sites." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="259" width="552" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n168" value="3. Build cubes; align to the host-grain Burgers OR." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="291" width="552" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n169" value="4. Replace matrix regions; wrap and clean overlaps." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="323" width="552" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n170" value="5. Reduce excess Al by nearby matrix substitution." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="355" width="552" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n171" value="6. Write the combined extended CFG." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="387" width="552" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n172" value="See page 2 for the internal data flow." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#6D28D9;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n158">
+          <mxGeometry x="24" y="440" width="552" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n173" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1630" width="390" height="533" as="geometry" />
+        </mxCell>
+        <mxCell id="n174" value="INSERTION SETTINGS / INTERPRETATION" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n175" value="Cube edge: 35 Å (3.5 nm, scaled)" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n176" value="Target volume fraction: 10%" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n177" value="GB-neighbor cutoff: 3.6 Å" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n178" value="Matrix-removal buffer: 2.5 Å" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n179" value="Final overlap cutoff: 1.6 Å" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="164" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n180" value="Minimum center spacing: &gt;56 Å" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="191" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n181" value="Random seed: 7" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="218" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n182" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="245" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n183" value="Geometric construction of precipitates;" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="272" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n184" value="the target fraction is not a guarantee." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="299" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n185" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="326" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n186" value="Al compensation is limited by available" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="353" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n187" value="matrix Al. It does not guarantee exact" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="380" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n188" value="bulk AZ41 composition after insertion." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="407" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n189" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="434" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n190" value="OR = orientation relationship." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="461" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n191" value="GB = grain boundary." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n173">
+          <mxGeometry x="22" y="488" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n192" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=1;exitY=0.458333333333333;exitDx=0;exitDy=0;entryX=0;entryY=0.458333333333333;entryDx=0;entryDy=0;" edge="1" parent="1" source="n141" target="n158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1850" as="sourcePoint" />
+            <mxPoint x="492" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0;exitY=0.412757973733583;exitDx=0;exitDy=0;entryX=1;entryY=0.458333333333333;entryDx=0;entryDy=0;" edge="1" parent="1" source="n173" target="n158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1142" y="1850" as="sourcePoint" />
+            <mxPoint x="1108" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n158" target="n195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="2110" as="sourcePoint" />
+            <mxPoint x="800" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n195" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#065F46;strokeColor=#065F46;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2180" width="860" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="n196" value="FINAL OUTPUT  /  WORKFLOW ENDS HERE" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=16;fontColor=#A7F3D0;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n195">
+          <mxGeometry x="31" y="21" width="798" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n197" value="az41poly_with_precipitates.cfg" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=29;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n195">
+          <mxGeometry x="31" y="58" width="798" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="n198" value="Extended CFG: matrix + beta precipitates, species, coordinates and grain IDs." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#ECFDF5;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n195">
+          <mxGeometry x="31" y="103" width="798" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n199" value="Existing example: 339,897 atoms in the 201 Å cubic box." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#ECFDF5;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n195">
+          <mxGeometry x="31" y="131" width="798" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n200" value="Commands wrap for display; enter each as one line. Sources: project notes, parameters, CFG headers and driver script.  |  01 / 02" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2370" width="1480" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="02-precipitate-insertion" name="02 - Inside precipitate insertion">
+    <mxGraphModel dx="1600" dy="2390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2390" background="#F8FAFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F8FAFC;strokeColor=#F8FAFC;strokeWidth=1.5;shadow=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Step 5 | Inside precipitate insertion" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=38;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="42" width="1460" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="How the alloyed polycrystal, grain orientations and beta crystal structure become one extended CFG." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#475569;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="101" width="1450" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="470" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="MATRIX INPUT" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n5">
+          <mxGeometry x="22" y="22" width="426" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="az41poly_alloy2.cfg" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n5">
+          <mxGeometry x="22" y="60" width="426" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="cfg_utils.py reads the box, atom species," style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n5">
+          <mxGeometry x="22" y="107" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="Cartesian positions and grain IDs." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n5">
+          <mxGeometry x="22" y="135" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n5">
+          <mxGeometry x="22" y="163" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="Inherited from the alloying stage." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n5">
+          <mxGeometry x="22" y="191" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="The grainID field links atoms to host grains." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n5">
+          <mxGeometry x="22" y="219" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="170" width="470" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="GRAIN GEOMETRY INPUT" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n13">
+          <mxGeometry x="22" y="22" width="426" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="az41poly_param.txt" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n13">
+          <mxGeometry x="22" y="60" width="426" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="orientation.py reads grain nodes and angles." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n13">
+          <mxGeometry x="22" y="107" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="It constructs each host-grain rotation." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n13">
+          <mxGeometry x="22" y="135" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n13">
+          <mxGeometry x="22" y="163" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="Use the generated file with explicit nodes," style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n13">
+          <mxGeometry x="22" y="191" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="not the initial random-grain request." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n13">
+          <mxGeometry x="22" y="219" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="170" width="470" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="PRECIPITATE CRYSTAL INPUT" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n21">
+          <mxGeometry x="22" y="22" width="426" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="1576218-Mg17Al12.cif" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n21">
+          <mxGeometry x="22" y="60" width="426" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="cif_utils.py expands the symmetry sites" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n21">
+          <mxGeometry x="22" y="107" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="into the beta conventional unit cell." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n21">
+          <mxGeometry x="22" y="135" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n21">
+          <mxGeometry x="22" y="163" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="58 atoms: Mg34Al24; cubic lattice" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n21">
+          <mxGeometry x="22" y="191" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="parameter a = 10.5438 Å." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n21">
+          <mxGeometry x="22" y="219" width="426" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.158783783783784;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n5" target="n32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="430" as="sourcePoint" />
+            <mxPoint x="295" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n13" target="n32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="430" as="sourcePoint" />
+            <mxPoint x="800" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.841216216216216;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n21" target="n32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1305" y="430" as="sourcePoint" />
+            <mxPoint x="1305" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n32" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="1480" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="insert_precipitates.py   |   Python + NumPy + SciPy   |   input paths and OUT_PATH configured before execution" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n32">
+          <mxGeometry x="22" y="18" width="1420" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.378378378378378;exitY=1;exitDx=0;exitDy=0;entryX=0.549019607843137;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n32" target="n35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="525" as="sourcePoint" />
+            <mxPoint x="620" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n35" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F5F3FF;strokeColor=#DDD6FE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="575" width="1020" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="n35">
+          <mxGeometry x="22" y="22" width="58" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="5A" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n36">
+          <mxGeometry x="12" y="8" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="Load the matrix, crystallography and rotations" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n35">
+          <mxGeometry x="98" y="28" width="890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="Read the three inputs. Build the beta cell and the Burgers orientation rotation R_OR." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n35">
+          <mxGeometry x="24" y="82" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="Internal result: matrix arrays, a grain-rotation lookup and a reusable beta unit cell." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n35">
+          <mxGeometry x="24" y="111" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="575" width="390" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" value="ORIENTATION CONVENTION" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n41">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="R_grain = Rz × Ry × Rx" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n41">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" value="R_lab = R_grain × R_OR" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n41">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n45" value="The helper assumes this rotation order." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n41">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n46" value="OR aligns each cube to its host grain." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n41">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n35" target="n48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="745" as="sourcePoint" />
+            <mxPoint x="570" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n48" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F5F3FF;strokeColor=#DDD6FE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="785" width="1020" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n49" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="n48">
+          <mxGeometry x="22" y="22" width="58" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n50" value="5B" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n49">
+          <mxGeometry x="12" y="8" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n51" value="Detect atoms at grain boundaries" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n48">
+          <mxGeometry x="98" y="28" width="890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n52" value="Use a periodic cKDTree to find atom pairs within 3.6 Å." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n48">
+          <mxGeometry x="24" y="82" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n53" value="Flag atoms in pairs whose grain IDs differ. Internal result: GB positions and host IDs." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n48">
+          <mxGeometry x="24" y="111" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n54" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="785" width="390" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="n55" value="WHY GRAIN IDS MATTER" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n54">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n56" value="Different neighboring grain IDs" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n54">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n57" value="identify boundary atoms directly." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n54">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n58" value="The script does not infer grains" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n54">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n59" value="from a later structural analysis." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n54">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n48" target="n61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="955" as="sourcePoint" />
+            <mxPoint x="570" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n61" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F5F3FF;strokeColor=#DDD6FE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="995" width="1020" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n62" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="n61">
+          <mxGeometry x="22" y="22" width="58" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n63" value="5C" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n62">
+          <mxGeometry x="12" y="8" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n64" value="Select well-separated nucleation sites" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="98" y="28" width="890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n65" value="Shuffle the GB candidates using seed 7; accept centers more than 56 Å apart." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="24" y="82" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n66" value="Target count = round(0.10 × box volume / 35³) = 19; fewer sites may be accepted." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n61">
+          <mxGeometry x="24" y="111" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n67" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="995" width="390" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="n68" value="INTERNAL OUTPUT" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n67">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n69" value="Chosen centers + host-grain IDs." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n67">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n70" value="Periodic minimum-image distances" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n67">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n71" value="keep selected centers apart." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n67">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n72" value="10% is a nominal geometric target." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n67">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n61" target="n74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1165" as="sourcePoint" />
+            <mxPoint x="570" y="1195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n74" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F5F3FF;strokeColor=#DDD6FE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1205" width="1020" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n75" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="n74">
+          <mxGeometry x="22" y="22" width="58" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n76" value="5D" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n75">
+          <mxGeometry x="12" y="8" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n77" value="Build and orient each beta precipitate" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n74">
+          <mxGeometry x="98" y="28" width="890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n78" value="Repeat the Mg17Al12 unit cell and crop a 35 Å cube in its own crystal axes." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n74">
+          <mxGeometry x="24" y="82" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n79" value="Rotate with R_lab and translate to the selected GB center. Result: oriented beta atoms." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n74">
+          <mxGeometry x="24" y="111" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n80" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1205" width="390" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="n81" value="MORPHOLOGY / SCALE" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n80">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n82" value="Block-shaped beta precipitates." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n80">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n83" value="35 Å = 3.5 nm cube edge." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n80">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n84" value="This is the script's scaled model size," style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n80">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n85" value="not a measured experimental size." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n80">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n74" target="n87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1375" as="sourcePoint" />
+            <mxPoint x="570" y="1405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n87" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F5F3FF;strokeColor=#DDD6FE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1415" width="1020" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n88" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="n87">
+          <mxGeometry x="22" y="22" width="58" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n89" value="5E" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n88">
+          <mxGeometry x="12" y="8" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n90" value="Replace matrix regions and merge the atom sets" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n87">
+          <mxGeometry x="98" y="28" width="890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n91" value="Remove matrix atoms inside each rotated cube plus a 2.5 Å buffer." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n87">
+          <mxGeometry x="24" y="82" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n92" value="Append the beta atoms; assign precipitate grain IDs 101, 102, … and merge the arrays." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n87">
+          <mxGeometry x="24" y="111" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n93" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1415" width="390" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="n94" value="INTERNAL OUTPUT" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n93">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n95" value="Combined species and coordinates." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n93">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n96" value="Matrix grain IDs are retained;" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n93">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n97" value="new IDs distinguish precipitates." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n93">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n98" value="Atom count changes during insertion." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n93">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n87" target="n100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1585" as="sourcePoint" />
+            <mxPoint x="570" y="1615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n100" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F5F3FF;strokeColor=#DDD6FE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1625" width="1020" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n101" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="n100">
+          <mxGeometry x="22" y="22" width="58" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n102" value="5F" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n101">
+          <mxGeometry x="12" y="8" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n103" value="Wrap into the box and clean close contacts" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n100">
+          <mxGeometry x="98" y="28" width="890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n104" value="Wrap fractional coordinates into [0, 1). Search periodic pairs closer than 1.6 Å." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n100">
+          <mxGeometry x="24" y="82" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n105" value="Remove conflicting matrix atoms, favoring beta atoms; beta–beta pairs are left intact." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n100">
+          <mxGeometry x="24" y="111" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n106" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1625" width="390" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="n107" value="PERIODIC CLEANUP" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n106">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n108" value="The merged structure stays inside" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n106">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n109" value="the original periodic box." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n106">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n110" value="Cleanup removes close matrix contacts;" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n106">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n111" value="it is a geometric operation." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n106">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n100" target="n113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1795" as="sourcePoint" />
+            <mxPoint x="570" y="1825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n113" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#F5F3FF;strokeColor=#DDD6FE;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1835" width="1020" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n114" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#6D28D9;strokeColor=#6D28D9;strokeWidth=1.5;shadow=0;" vertex="1" parent="n113">
+          <mxGeometry x="22" y="22" width="58" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="n115" value="5G" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n114">
+          <mxGeometry x="12" y="8" width="40" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n116" value="Apply the local Al-depletion approximation" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=24;fontColor=#0F172A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n113">
+          <mxGeometry x="98" y="28" width="890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n117" value="Compare final Al count with the input Al count. Rank matrix Al by proximity to precipitates." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n113">
+          <mxGeometry x="24" y="82" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n118" value="Convert nearby excess matrix Al back to Mg, limited by the number of matrix Al atoms." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n113">
+          <mxGeometry x="24" y="111" width="970" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="n119" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1835" width="390" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="n120" value="COMPOSITION LIMIT" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#64748B;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n119">
+          <mxGeometry x="22" y="20" width="346" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n121" value="The correction targets the initial" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n119">
+          <mxGeometry x="22" y="56" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n122" value="Al atom count. The total atom count" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n119">
+          <mxGeometry x="22" y="83" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n123" value="changes, and matrix Al can run out;" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n119">
+          <mxGeometry x="22" y="110" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n124" value="exact composition is not guaranteed." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#334155;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n119">
+          <mxGeometry x="22" y="137" width="346" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="n125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.344594594594595;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n113" target="n126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="2005" as="sourcePoint" />
+            <mxPoint x="570" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n126" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#065F46;strokeColor=#065F46;strokeWidth=1.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2060" width="1480" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n127" value="LAST OPERATION  /  WRITE THE FINAL EXTENDED CFG" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=16;fontColor=#A7F3D0;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n126">
+          <mxGeometry x="28" y="25" width="1400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n128" value="az41poly_with_precipitates.cfg" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=32;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="n126">
+          <mxGeometry x="28" y="66" width="1400" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="n129" value="cfg_utils.write_extended_cfg writes the box, chemical species, wrapped coordinates and grain IDs." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#ECFDF5;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n126">
+          <mxGeometry x="28" y="120" width="1400" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="n130" value="The existing project example contains 339,897 atoms. This file is the endpoint of the requested workflow." style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#ECFDF5;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="n126">
+          <mxGeometry x="28" y="153" width="1400" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="n131" value="File inputs are shown by basename. The driver and helper modules are in the project's files from claude folder.  |  02 / 02" style="text;html=0;whiteSpace=nowrap;overflow=visible;align=left;verticalAlign=top;spacing=0;fontFamily=Arial;fontSize=16;fontColor=#64748B;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2315" width="1480" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

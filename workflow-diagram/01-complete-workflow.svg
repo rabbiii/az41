@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2420" viewBox="0 0 1600 2420"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#64748B"/></marker></defs><rect width="1600" height="2420" fill="#F8FAFC"/>
+<rect x="0" y="0" width="1600" height="2420" rx="0" fill="#F8FAFC" stroke="#F8FAFC" stroke-width="1.5"/>
+<text x="60" y="80" font-family="Arial" font-size="38" font-weight="bold" fill="#0F172A">AZ41 | From crystal files to precipitates</text>
+<text x="60" y="121" font-family="Arial" font-size="21" font-weight="normal" fill="#475569">Five preparation stages, with file provenance and the final CFG as the endpoint.</text>
+<rect x="60" y="151" width="17" height="17" rx="4" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+<text x="88" y="164" font-family="Arial" font-size="16" font-weight="normal" fill="#334155">Blue: processing step</text>
+<rect x="385" y="151" width="17" height="17" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="413" y="164" font-family="Arial" font-size="16" font-weight="normal" fill="#334155">White: inputs / supporting files</text>
+<rect x="790" y="151" width="17" height="17" rx="4" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="1.5"/>
+<text x="818" y="164" font-family="Arial" font-size="16" font-weight="normal" fill="#334155">Green: output / retained artifact</text>
+<text x="60" y="217" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">INPUTS / REQUIREMENTS</text>
+<text x="500" y="217" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">WORKFLOW / WHAT HAPPENS</text>
+<text x="1150" y="217" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">OUTPUTS / MODEL DETAILS</text>
+<rect x="60" y="240" width="390" height="200" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="82" y="275" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">SOURCE STRUCTURES</text>
+<text x="82" y="314" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Crystallographic records for:</text>
+<text x="82" y="341" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">hcp Mg (matrix phase)</text>
+<text x="82" y="368" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Mg17Al12 (precipitate phase)</text>
+<text x="82" y="395" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Record IDs: 9012001, 1576218</text>
+<rect x="500" y="240" width="600" height="220" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+<rect x="522" y="262" width="45" height="40" rx="8" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="1.5"/>
+<text x="534" y="291" font-family="Arial" font-size="22" font-weight="bold" fill="#FFFFFF">1</text>
+<text x="585" y="293" font-family="Arial" font-size="24" font-weight="bold" fill="#0F172A">Download the crystal structures</text>
+<text x="524" y="344" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Obtain the CIF for each phase.</text>
+<text x="524" y="373" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Mg supplies the matrix crystal structure;</text>
+<text x="524" y="402" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Mg17Al12 supplies the beta-phase unit cell.</text>
+<text x="524" y="431" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Retain both files for their later branches.</text>
+<rect x="1150" y="240" width="390" height="220" rx="14" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="1.5"/>
+<text x="1172" y="275" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">DOWNLOADED CIF FILES</text>
+<text x="1172" y="314" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">9012001-Mghcp.cif</text>
+<text x="1172" y="341" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">1576218-Mg17Al12.cif</text>
+<text x="1172" y="368" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="395" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">The beta CIF is read again in step 5.</text>
+<path d="M450,350 L492,350" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1108,350 L1142,350" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800,460 L800,510" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="60" y="520" width="390" height="200" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="82" y="555" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">SIMULATION DESIGN</text>
+<text x="82" y="594" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Cubic box: 201 x 201 x 201 Å</text>
+<text x="82" y="621" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Equivalent length: 20.1 nm per side</text>
+<text x="82" y="648" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Number of grains: 20</text>
+<text x="82" y="675" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Random grain positions/orientations</text>
+<rect x="500" y="520" width="600" height="210" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+<rect x="522" y="542" width="45" height="40" rx="8" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="1.5"/>
+<text x="534" y="571" font-family="Arial" font-size="22" font-weight="bold" fill="#FFFFFF">2</text>
+<text x="585" y="573" font-family="Arial" font-size="24" font-weight="bold" fill="#0F172A">Write the box parameter file</text>
+<text x="524" y="618" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Define the box and request 20 random grains.</text>
+<rect x="524" y="640" width="552" height="65" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+<text x="542" y="668" font-family="Courier New" font-size="19" font-weight="normal" fill="#0F172A">box 201 201 201</text>
+<text x="542" y="692" font-family="Courier New" font-size="19" font-weight="normal" fill="#0F172A">random 20</text>
+<rect x="1150" y="520" width="390" height="210" rx="14" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="1.5"/>
+<text x="1172" y="555" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">SAVED PARAMETER FILE</text>
+<text x="1172" y="594" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">param.txt.txt</text>
+<text x="1172" y="621" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="648" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Called param.txt in the workflow;</text>
+<text x="1172" y="675" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">the actual saved filename and</text>
+<text x="1172" y="702" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">terminal command use param.txt.txt.</text>
+<path d="M450,625 L492,625" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1108,625 L1142,625" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800,730 L800,780" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="60" y="790" width="390" height="371" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="82" y="825" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">ATOMSK INPUT FILES</text>
+<text x="82" y="864" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">9012001-Mghcp.lmp</text>
+<text x="82" y="891" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">param.txt.txt</text>
+<text x="82" y="918" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="82" y="945" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Prerequisite: convert the Mg CIF</text>
+<text x="82" y="972" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">to the LAMMPS unit-cell file above.</text>
+<text x="82" y="999" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">The LMP exists in this project;</text>
+<text x="82" y="1026" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">its conversion command is not</text>
+<text x="82" y="1053" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">recorded in the workflow notes.</text>
+<text x="82" y="1080" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="82" y="1107" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">The beta-phase LMP is not used</text>
+<text x="82" y="1134" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">by the precipitate insertion script.</text>
+<rect x="500" y="790" width="600" height="370" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+<rect x="522" y="812" width="45" height="40" rx="8" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="1.5"/>
+<text x="534" y="841" font-family="Arial" font-size="22" font-weight="bold" fill="#FFFFFF">3</text>
+<text x="585" y="843" font-family="Arial" font-size="24" font-weight="bold" fill="#0F172A">Build the pure-Mg polycrystal</text>
+<text x="524" y="890" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Atomsk fills 20 Voronoi grains with hcp Mg,</text>
+<text x="524" y="919" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">assigns grain orientations, and wraps atoms</text>
+<text x="524" y="948" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">into the periodic simulation box.</text>
+<rect x="524" y="973" width="552" height="115" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+<text x="542" y="1006" font-family="Courier New" font-size="18" font-weight="normal" fill="#0F172A">atomsk --polycrystal</text>
+<text x="542" y="1035" font-family="Courier New" font-size="18" font-weight="normal" fill="#0F172A">&quot;9012001-Mghcp.lmp&quot; param.txt.txt</text>
+<text x="542" y="1064" font-family="Courier New" font-size="18" font-weight="normal" fill="#0F172A">az41poly.lmp lmp cfg -wrap</text>
+<text x="524" y="1132" font-family="Arial" font-size="20" font-weight="bold" fill="#1D4ED8">349,469 atoms | Mg only | no alloying yet</text>
+<rect x="1150" y="790" width="390" height="398" rx="14" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="1.5"/>
+<text x="1172" y="825" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">GENERATED FILES</text>
+<text x="1172" y="864" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly.cfg  →  step 4</text>
+<text x="1172" y="891" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly.lmp</text>
+<text x="1172" y="918" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly_param.txt  →  step 5</text>
+<text x="1172" y="945" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="972" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Grain geometry / statistics:</text>
+<text x="1172" y="999" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly_nodes.xsf</text>
+<text x="1172" y="1026" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly_grains-com.xsf</text>
+<text x="1172" y="1053" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly_id-size.txt</text>
+<text x="1172" y="1080" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly_size-dist.txt</text>
+<text x="1172" y="1107" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="1134" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">The generated parameter file stores</text>
+<text x="1172" y="1161" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">the actual grain nodes and rotations.</text>
+<path d="M450,975 L492,975" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1108,975 L1142,975" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800,1160 L800,1210" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="60" y="1220" width="390" height="290" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="82" y="1255" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">ALLOYING INPUT</text>
+<text x="82" y="1294" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly.cfg  (from step 3)</text>
+<text x="82" y="1321" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="82" y="1348" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Random substitution in the CFG:</text>
+<text x="82" y="1375" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">13,055 Mg atoms → Al</text>
+<text x="82" y="1402" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">1,496 remaining Mg atoms → Zn</text>
+<text x="82" y="1429" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="82" y="1456" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Keep the box, grain geometry</text>
+<text x="82" y="1483" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">and grainID auxiliary information.</text>
+<rect x="500" y="1220" width="600" height="350" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+<rect x="522" y="1242" width="45" height="40" rx="8" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="1.5"/>
+<text x="534" y="1271" font-family="Arial" font-size="22" font-weight="bold" fill="#FFFFFF">4</text>
+<text x="585" y="1273" font-family="Arial" font-size="24" font-weight="bold" fill="#0F172A">Create the AZ41 solid solution</text>
+<text x="524" y="1320" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Replace selected Mg atoms with Al and Zn.</text>
+<text x="524" y="1349" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">This creates an alloyed matrix before any</text>
+<text x="524" y="1378" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Mg17Al12 precipitates are inserted.</text>
+<rect x="524" y="1400" width="552" height="130" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+<text x="540" y="1431" font-family="Courier New" font-size="17" font-weight="normal" fill="#0F172A">atomsk az41poly.cfg</text>
+<text x="540" y="1457" font-family="Courier New" font-size="17" font-weight="normal" fill="#0F172A">-select random 13055 Mg -substitute Mg Al</text>
+<text x="540" y="1483" font-family="Courier New" font-size="17" font-weight="normal" fill="#0F172A">-select random 1496 Mg -substitute Mg Zn</text>
+<text x="540" y="1509" font-family="Courier New" font-size="17" font-weight="normal" fill="#0F172A">az41poly_alloy2 lmp cfg</text>
+<rect x="1150" y="1220" width="390" height="371" rx="14" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="1.5"/>
+<text x="1172" y="1255" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">ALLOYED OUTPUT FILES</text>
+<text x="1172" y="1294" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly_alloy2.cfg  →  step 5</text>
+<text x="1172" y="1321" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="1348" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">349,469 atoms; Mg-Al-Zn matrix.</text>
+<text x="1172" y="1375" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">This CFG carries the alloyed structure.</text>
+<text x="1172" y="1402" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="1429" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Companion: az41poly_alloy2.lmp</text>
+<text x="1172" y="1456" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">The notes report incorrect species</text>
+<text x="1172" y="1483" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">in that LMP and an OVITO conversion</text>
+<text x="1172" y="1510" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">from the CFG to repair the data file.</text>
+<text x="1172" y="1537" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="1564" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Precipitate insertion uses the CFG.</text>
+<path d="M450,1395 L492,1395" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1108,1395 L1142,1395" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800,1570 L800,1620" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="60" y="1630" width="390" height="480" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="82" y="1665" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">SCRIPT INPUTS + DEPENDENCIES</text>
+<text x="82" y="1704" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly_alloy2.cfg  (step 4)</text>
+<text x="82" y="1731" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">az41poly_param.txt  (step 3)</text>
+<text x="82" y="1758" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">1576218-Mg17Al12.cif  (step 1)</text>
+<text x="82" y="1785" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="82" y="1812" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Helper modules:</text>
+<text x="82" y="1839" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">cfg_utils.py  — CFG read/write</text>
+<text x="82" y="1866" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">cif_utils.py  — CIF expansion</text>
+<text x="82" y="1893" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">orientation.py  — grain / beta rotation</text>
+<text x="82" y="1920" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="82" y="1947" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Runtime: Python, NumPy, SciPy.</text>
+<text x="82" y="1974" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="82" y="2001" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Set CFG_PATH, NODE_PATH, CIF_PATH</text>
+<text x="82" y="2028" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">and OUT_PATH for the working machine.</text>
+<text x="82" y="2055" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">The supplied script contains paths</text>
+<text x="82" y="2082" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">from its original execution environment.</text>
+<rect x="500" y="1630" width="600" height="480" rx="14" fill="#F5F3FF" stroke="#BFDBFE" stroke-width="1.5"/>
+<rect x="522" y="1652" width="45" height="40" rx="8" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="534" y="1681" font-family="Arial" font-size="22" font-weight="bold" fill="#FFFFFF">5</text>
+<text x="585" y="1683" font-family="Arial" font-size="24" font-weight="bold" fill="#0F172A">Insert the Mg17Al12 precipitates</text>
+<text x="524" y="1729" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">Run insert_precipitates.py with the three</text>
+<text x="524" y="1758" font-family="Arial" font-size="20" font-weight="normal" fill="#334155">data files and helper modules at left.</text>
+<rect x="524" y="1780" width="552" height="52" rx="8" fill="#FFFFFF" stroke="#C4B5FD" stroke-width="1.5"/>
+<text x="542" y="1812" font-family="Courier New" font-size="18" font-weight="normal" fill="#0F172A">python insert_precipitates.py</text>
+<text x="524" y="1876" font-family="Arial" font-size="19" font-weight="normal" fill="#334155">1. Read matrix, grain orientations and beta CIF.</text>
+<text x="524" y="1908" font-family="Arial" font-size="19" font-weight="normal" fill="#334155">2. Detect grain boundaries; select spaced sites.</text>
+<text x="524" y="1940" font-family="Arial" font-size="19" font-weight="normal" fill="#334155">3. Build cubes; align to the host-grain Burgers OR.</text>
+<text x="524" y="1972" font-family="Arial" font-size="19" font-weight="normal" fill="#334155">4. Replace matrix regions; wrap and clean overlaps.</text>
+<text x="524" y="2004" font-family="Arial" font-size="19" font-weight="normal" fill="#334155">5. Reduce excess Al by nearby matrix substitution.</text>
+<text x="524" y="2036" font-family="Arial" font-size="19" font-weight="normal" fill="#334155">6. Write the combined extended CFG.</text>
+<text x="524" y="2088" font-family="Arial" font-size="18" font-weight="bold" fill="#6D28D9">See page 2 for the internal data flow.</text>
+<rect x="1150" y="1630" width="390" height="533" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1172" y="1665" font-family="Arial" font-size="15" font-weight="bold" fill="#64748B">INSERTION SETTINGS / INTERPRETATION</text>
+<text x="1172" y="1704" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Cube edge: 35 Å (3.5 nm, scaled)</text>
+<text x="1172" y="1731" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Target volume fraction: 10%</text>
+<text x="1172" y="1758" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">GB-neighbor cutoff: 3.6 Å</text>
+<text x="1172" y="1785" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Matrix-removal buffer: 2.5 Å</text>
+<text x="1172" y="1812" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Final overlap cutoff: 1.6 Å</text>
+<text x="1172" y="1839" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Minimum center spacing: &gt;56 Å</text>
+<text x="1172" y="1866" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Random seed: 7</text>
+<text x="1172" y="1893" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="1920" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Geometric construction of precipitates;</text>
+<text x="1172" y="1947" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">the target fraction is not a guarantee.</text>
+<text x="1172" y="1974" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="2001" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">Al compensation is limited by available</text>
+<text x="1172" y="2028" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">matrix Al. It does not guarantee exact</text>
+<text x="1172" y="2055" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">bulk AZ41 composition after insertion.</text>
+<text x="1172" y="2082" font-family="Arial" font-size="18" font-weight="normal" fill="#334155"></text>
+<text x="1172" y="2109" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">OR = orientation relationship.</text>
+<text x="1172" y="2136" font-family="Arial" font-size="18" font-weight="normal" fill="#334155">GB = grain boundary.</text>
+<path d="M450,1850 L492,1850" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1142,1850 L1108,1850" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800,2110 L800,2170" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="370" y="2180" width="860" height="175" rx="18" fill="#065F46" stroke="#065F46" stroke-width="1.5"/>
+<text x="401" y="2217" font-family="Arial" font-size="16" font-weight="bold" fill="#A7F3D0">FINAL OUTPUT  /  WORKFLOW ENDS HERE</text>
+<text x="401" y="2267" font-family="Arial" font-size="29" font-weight="bold" fill="#FFFFFF">az41poly_with_precipitates.cfg</text>
+<text x="401" y="2302" font-family="Arial" font-size="19" font-weight="normal" fill="#ECFDF5">Extended CFG: matrix + beta precipitates, species, coordinates and grain IDs.</text>
+<text x="401" y="2330" font-family="Arial" font-size="19" font-weight="normal" fill="#ECFDF5">Existing example: 339,897 atoms in the 201 Å cubic box.</text>
+<text x="60" y="2385" font-family="Arial" font-size="15" font-weight="normal" fill="#64748B">Commands wrap for display; enter each as one line. Sources: project notes, parameters, CFG headers and driver script.  |  01 / 02</text>
+</svg>
